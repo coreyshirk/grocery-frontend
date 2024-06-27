@@ -1,15 +1,18 @@
-import { fontFamily } from "tailwindcss/defaultTheme";
+const { fontFamily } = require("tailwindcss/defaultTheme")
 
 /** @type {import('tailwindcss').Config} */
-// eslint-disable-next-line import/no-anonymous-default-export
-export default {
-  content: ["./components/**/*.{js,ts,jsx,tsx}", "./app/**/*.{js,ts,jsx,tsx}"],
+module.exports = {
+  darkMode: ["class"],
+  content: ["app/**/*.{ts,tsx}", "components/**/*.{ts,tsx}"],
   theme: {
-    extend: {
-      fontFamily: {
-        heading: ["var(--font-heading)", ...fontFamily.sans],
-        body: ["var(--font-body)", ...fontFamily.sans],
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
       },
+    },
+    extend: {
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,10 +49,12 @@ export default {
         },
       },
       borderRadius: {
-        xl: `calc(var(--radius) + 4px)`,
         lg: `var(--radius)`,
         md: `calc(var(--radius) - 2px)`,
-        sm: `calc(var(--radius) - 4px)`,
+        sm: "calc(var(--radius) - 4px)",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
       },
       keyframes: {
         "accordion-down": {
@@ -68,4 +73,4 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animate")],
-};
+}

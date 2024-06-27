@@ -322,7 +322,7 @@ export default function Component() {
   );
 }
 
-function LeafIcon(props) {
+function LeafIcon(props: any) {
   return (
     <svg
       {...props}
@@ -342,7 +342,7 @@ function LeafIcon(props) {
   );
 }
 
-function StarIcon(props) {
+function StarIcon(props: any) {
   return (
     <svg
       {...props}
