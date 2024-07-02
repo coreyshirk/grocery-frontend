@@ -3,7 +3,8 @@
   "packages": [
     "shadcn-ui",
     "drizzle",
-    "lucia"
+    "lucia",
+    "stripe"
   ],
   "preferredPackageManager": "npm",
   "t3": false,
