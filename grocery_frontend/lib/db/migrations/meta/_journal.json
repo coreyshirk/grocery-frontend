@@ -43,6 +43,13 @@
       "when": 1720034121408,
       "tag": "0005_fearless_beyonder",
       "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1720048419702,
+      "tag": "0006_futuristic_vengeance",
+      "breakpoints": true
     }
   ]
 }

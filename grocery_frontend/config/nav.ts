@@ -17,6 +17,11 @@ export const additionalLinks: AdditionalLinks[] = [
     title: "Entities",
     links: [
       {
+        href: "/categories",
+        title: "Categories",
+        icon: Globe,
+      },
+      {
         href: "/pages",
         title: "Pages",
         icon: Globe,
