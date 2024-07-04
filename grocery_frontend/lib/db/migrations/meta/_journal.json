@@ -26,29 +26,8 @@
     {
       "idx": 3,
       "version": "6",
-      "when": 1720032014261,
-      "tag": "0003_deep_blacklash",
-      "breakpoints": true
-    },
-    {
-      "idx": 4,
-      "version": "6",
-      "when": 1720033756223,
-      "tag": "0004_lonely_thunderbird",
-      "breakpoints": true
-    },
-    {
-      "idx": 5,
-      "version": "6",
-      "when": 1720034121408,
-      "tag": "0005_fearless_beyonder",
-      "breakpoints": true
-    },
-    {
-      "idx": 6,
-      "version": "6",
-      "when": 1720048419702,
-      "tag": "0006_futuristic_vengeance",
+      "when": 1720053267483,
+      "tag": "0003_striped_ser_duncan",
       "breakpoints": true
     }
   ]
